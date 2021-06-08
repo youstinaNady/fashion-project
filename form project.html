@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="form.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script>
+         function checkPassword(form)
+  {
+      if(form.pw.value.length != 8) {
+        alert("Error: password must contain 8 characters! Check the password title, please.");
+        return false;
+      }
+     
+      if(form.pw.value.charAt(0) != form.pw.value.charAt(0).toUpperCase() 
+    || Number(form.pw.value.charAt(0)) || form.pw.value.charAt(0)=="-" 
+    || form.pw.value.charAt(0)=="_" || form.pw.value.charAt(0)=="*" || 
+    form.pw.value.charAt(0)=="#" || form.pw.value.charAt(0)=="&" || 
+    form.pw.value.charAt(0)==" "){
+        alert("Error: password must start with uppercase letter (A-Z)! Check the password title, please.");
+        return false;
+ 
+}
+    var i="1";
+      while(!Number(form.pw.value.charAt(i))){
+        i++;
+        if(i==8){
+        alert("Error: password must include at least one digit (0-9)! Check the password title, please.");
+        return false;
+        break;
+       }
+        else continue;
+     }
+    var i="1";
+      while(form.pw.value.charAt(i) !="-" && form.pw.value.charAt(i) !="_" && 
+       form.pw.value.charAt(i) !="#" && form.pw.value.charAt(i) !="&" &&
+       form.pw.value.charAt(i) !="*" || form.pw.value.charAt(i) ==" "){
+        i++;
+        if(i==8){
+        alert("Error: password must include a special character and no spaces! Check the password title, please.");
+        return false;
+        break;
+       }
+        else continue;
+     }
+      alert("You entered a valid password: " + form.pw.value);
+      alert("Thank you for your submition " + form.fname.value + ",we'll send you our notification day by day on this new added email.")
+    return true;
+  }
+          
+          
+          </script>
+
+        
+   
+</head>
+<body>
+<header ><h4 style="display: inline;">US$25 OFF </h4><p style="display: inline;"> orders US$140+</p><p style="display: inline;padding-left:15px ;"></p>
+<div class="header1">USE Code:1234py</div> 
+</header>
+
+    <ul class="navbar">
+        <li style="float: left;text-shadow:2px 2px 20px darkred;"><a href="wome.html" class="wo">WOMEN</a></li>
+        <li style="float: left;text-shadow:2px 2px 20px darkred;"><a href="Men.html">MEN</a></li>
+        <li style="float: left;text-shadow:2px 2px 20px darkred;"><a href="KIDS.html">KIDS</a></li>
+        <li class="formdown"><a><i class="material-icons right" >&#xe894;</i></a>
+        <div class="formdropdown">
+            <label for="country"  style="font-size: 12px;padding-left: 5px;">Select City</label>
+            <select id="country" name="country" style="overflow:visible;height: 20px;">
+                <option value="Australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+                <option value="Egypt">Egypt</option>
+                <option value="india">India</option>
+                <option value="France">France</option>
+                <option value="German">German</option>
+                <option value="italy">Italy</option>
+                
+              </select>
+        </div>
+        </li>
+        <li class="formdown"><a><i class="material-icons right">&#xe8cc;</i></a>
+        <div class="formdropdown">
+            <form>
+                <label for="number" style="font-size: 12px;padding-left:5px ;">Number of Products bought</label><br>
+                <input type="number" id="num" name="number" style="width: 50%;margin-left: 5px;"min="0">
+            </form>
+        </div>
+        
+        </li>
+        <li class="formdown"><a><i class="material-icons right">&#xe853;</i></a>
+        <div class="formdropdown">
+            <a href="form project.html#signin" >SIGN IN</a>
+            <a href="form project.html#signup">SIGN UP</a>
+
+        </div>
+        </li>
+        <div class="navbardesc">BRANDS</div>
+        </ul>
+    <script>
+  
+
+    </script>
+    
+
+<ul class="topnav">
+  <li class="dropdown"><a  href="#home" >NEW IN</a>
+  <div class="dropdown-content">
+    <img src="social-holding.jpg" alt="fashion" width="600px" height="400px" class="newin">
+    <div class="colomn"> <strong>WHAT'S NEW</strong><br> 06/05/2021 06/04/2021 06/03/2021 06/02/2021 06/01/2021 05/31/2021 05/30/2021
+<br><strong>BACK IN STOCK</strong> <br>
+<strong>NEW IN CLOTHING</strong><br>    
+New In Dresses New In Blouses New In Tops New In Jumpsuits & Matching Sets New In Bottoms New In Blazers
+New In Sweaters New In Sweatshirts New In Coats & Jackets New In Lingerie & Loungewear New In Bodysuits
+New In Denim <br>
+<strong>NEW IN MATERNITY CLOTHING</strong><br><strong>NEW IN ACTIVEWEAR</strong><br><strong>NEW IN ACCESSORIES</strong><br> <strong>NEW IN SHOES</strong><br>  
+<strong>NEW IN BAGS</strong><br><strong>NEW IN JEWELRY</strong><br> <strong>NEW IN BEAUTY</strong><br><strong>NEW IN HOME</strong><br><strong>NEW IN STATIONERY </strong><br> 
+<strong>NEW IN PETS</strong><br><strong> NEW IN ELECTRONICS</strong><br><strong>NEW IN BEACHWEAR</strong><br>  
+MOTF Premium ★ Silk Collection ECO COLLECTION Activewear Collection DAZY ★ EMERY ROSE ★ PETSIN ★ CUCCOO ★
+
+    </div>
+  </div>
+
+</li>
+  <li class="dropdown"><a href="#news">TRENDS</a>
+    <div class="dropdown-content">
+        <img src="Top-10-Best-Selling-Clothing-Brands-In-The-World-sajt-696x482.jpg" alt="fashion" width="600px" height="400px" class="trend">
+    <div style="column-count: 3;column-width: 10px;column-fill: balance;padding-left: 10px;"><pre style="font-family: 'Times New Roman', Times, serif;">
+        <strong>SHOP BY TRENDS</strong> 
+        Gingham Print
+        Rainbow
+        Cottagecore
+        Cotton Linen
+        Y2K
+        Wide Leg Pants
+        White Pants
+        Spaghetti Strap
+        Shoulder Pad
+        Back Details
+        Statement Collar
+        Oversized
+       <strong>SHOP BY STYLE</strong> 
+        Vacation
+        Sporty
+        Casual
+        Sexy
+        Preppy
+        Elegant
+        Party
+        Bohemian
+        Chic
+        Comfy
+       <strong>Women</strong> 
+        Tops
+        Bottoms
+        Dresses
+        Curve + Plus
+        Maternity Clothing
+        Denim
+        Lingerie & Loungewear
+        Swimwear
+        Activewear
+        Accessories
+        Kids</pre></div>
+    </div>
+  
+</li>
+  <li class="dropdown"><a href="#contact">CLOTHING</a>
+    <div class="dropdown-content" style="column-count: 3;">
+      <img src="ER.jpeg" alt="fashion" width="400px" height="200px" class="cloth"><br>
+      
+      <img src="ET.jpg" alt="fashion" width="400px" height="200px" class="cloth">
+      <img src="1606190211.jpg" alt="fashion" width="600px" height="400px" class="cloth">
+    </div>
+  </li>
+  <li class="dropdown"><a href="#home">DRESSES</a>
+    <div class="dropdown-content">
+      <img src="51VMUKcwsXL._AC_UL1130_.jpg" alt="fashion" width="600px" height="400px" class="dress1">
+      <img src="dress.webp" alt="fashion" width="600px" height="400px" class="dress2">
+      <div style="column-count: 2;column-gap: 5px;font-family: 'Times New Roman', Times, serif;padding-left: 5px;"><pre>
+       <strong> SHOP BY TREND</strong>
+        A Line Dresses
+        Bodycon Dresses
+        Cami Dresses
+        Shirt Dresses
+        Smock Dresses
+        T-shirt Dresses
+        Tunic Dresses
+        Knit Dresses
+        Sheer Dresses
+        Blazers Dresses
+        Sparkly Dresses
+      <strong>SHOP BY LENGTH</strong>  
+        Maxi Dresses
+        Midi Dresses
+        Short Dresses 
+        SHOP BY COLOR
+        White Dresses
+        Black Dresses
+        Burgundy Dresses
+        Pastel Dresses</pre></div>
+    </div>
+  </li>
+  <li class="dropdown"><a href="#news">SHOES & ACCESSORIES</a>
+    <div class="dropdown-content">
+        <img src="83754077-womens-shoes-and-accessories-top-view-pair-of-pink-shoes-and-beige-handbag-with-perfume-bottle-fashi.jpg" alt="fashion" width="600px" height="400px" class="shoe">
+        <img src="acc.jpg" alt="fashion " width="600px" height="400px" class="accessory">
+        <div>
+           
+        <pre style=" font-family: 'Times New Roman', Times, serif;padding-left:2px;">
+           <strong> SHOES</strong>
+            Boots,Sandals,Sneakers
+            Flats,Pumps,Wedges,Slippers
+            Wide Fit Shoes
+           <strong>WOMEN BAGS</strong> 
+            Crossbody,Purses,Backpack
+            Satchels,STATIONERY
+            Bum Bags,Evening&Clutch
+            Bag Sets,Bag Accessories
+            Shoulder Bags,Tote Bags
+           <strong>ACCESSORIES</strong> 
+           </pre>
+    </div>
+    
+    </div>
+  </li>
+  <li class="dropdown"><a href="#contact">BEAUTY</a>
+    <div class="dropdown-content">
+      <img src="makeup-cosmetics.jpg" alt="fashion" width="600px" length="400px" class="beauty">
+      <pre  style=" font-family: 'Times New Roman', Times, serif;padding-left:2px;"> 
+    <strong>Makeup brush sets</strong>    
+        Face brushes
+        Eye brushes
+        Makeup brush cleaning
+        EYELASHES
+        Lash curlers
+       <strong>MAKEUP TOOLS</strong> 
+        Makeup sponge
+        Mirrors
+        Travel bottles
+        Tweezers & Eyebrow tools</pre>
+    </div>
+  </li>
+  <li class="dropdown"><a href="#contact">SALE</a>
+    <div class="dropdown-content">
+        <img src="download.png" alt="fashion" width="600px" height="400px" class="sale">
+<div class="colomn" style="padding-right: 700px;">
+<strong>SHOP BY PRICE</strong><br> 
+All under US$5
+All under US$10
+All under US$15<br>
+<strong>SPECIAL OFFERS</strong><br>
+Summer Sale-Up To 80% Off
+Bestsellers On Sale
+New in Sale<br>
+<strong>SHOP BY CATEGORY</strong> <br>
+Sale T-shirts & Tank Tops
+Sale Dresses
+Sale Swimwears
+Sale Blouse
+Sale Two-Piece Sets
+Sale Jumpsuits
+Sale Bottoms
+Sale Lingerie & Loungewear
+Sale Sweaters
+Sale Sweatshirts
+Sale Maternity Clothing
+
+</div>
+    </div>
+  </li>
+  <li class="right "><a href="index.html">About</a></li>
+</ul>
+
+
+
+<form  class="f" onsubmit="return checkPassword(this);">
+  <fieldset id="signup"  >
+    <legend>SIGN UP:</legend>
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname" placeholder="Enter your first name" required><br><br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname" placeholder="Enter your last name"  required><br><br>
+    <label for="email">E-mail Address:</label><br>
+    <input type="email" id="email" name="email" placeholder="Enter your E-mail"  required><br><br>
+    <label for="pw">Password</label><br>
+    <input type="password" id="pw" name="pw" placeholder="Enter your password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]{1})(?=.*){1}.{8}" title="It must contain 8 characters starting with uppercase letter and including at least one digit, one of these special character (#,*,_,&,-) and no spaces." required><br><br>
+    <label for="phone">Mobile Phone Number</label><br>
+    <input type="tel" id="number" name="number" placeholder="Enter your phone number" pattern="[0]{1}[1]{1}[0-9]{9}" required><br><br>
+    <label for="address">Address</label><br>
+    <textarea placeholder="Enter your home address"></textarea><br><br>
+    <label for="gender">What is Your gender?</label><br>
+    <input type="radio" id="male" name="gender" value="male" required>
+    <label for="male">Male</label><br>
+    <input type="radio" id="female" name="gender" value="female" required>
+    <label for="female">Female</label><br><br><br>
+    <input type="submit" value="SIGN UP" >
+  </fieldset>
+</form>
+  <form >
+  <fieldset id="signin" >
+    <legend>SIGN IN:</legend>
+    <label for="mail">E-mail Address:</label><br>
+    <input type="email" id="mail" name="mail" placeholder="Enter your E-mail"  required><br><br>
+    <label for="pass">Password</label><br>
+    <input type="password" id="ps" name="ps" placeholder="Enter your password" required><br><br>
+    <input type="submit" value="Log IN" onclick="alert('Thank you for submition')" >
+  </fieldset>
+</form>
+<div id="message">
+  <h3>Password must contain the following:</h3>
+  <p id="letter" class="invalid">A <b>lowercase</b> letter</p>
+  <p id="capital" class="invalid">A <b>capital (uppercase) at first</b> letter</p>
+  <p id="number" class="invalid">A <b>number</b></p>
+  <p id="length" class="invalid">equal <b>8 characters</b></p>
+</div>
+
+
+<div id="phone_error" class="error hidden">Please enter a valid phone number</div>
+<div id="message">
+  <h3>phone number must contain :</h3>
+  
+  <p id="re" class="invalid">equal <b>11 numbers</b></p>
+</div>
+
+
+<footer class="center foot1">
+  <ul style="list-style-type: none;display: inline-block;">
+    <li style="font-weight: bold;font-size: 10px;color: black;">COMPANY INFO</li>
+    <li style="color: grey;font-size: 10px;" >About SHEIN</li>
+    <li style="color: grey;font-size: 10px;">Affiliate</li>
+    <li style="color: grey;font-size: 10px;">Fashion Blogger</li>
+  </ul>
+  <ul style="list-style-type: none;padding-top: 10px;">
+   <li style="font-weight: bold;font-size: 10px;color: black;">HELP & SUPPORT</li>
+   <li style="color: grey;font-size: 10px;" >Shipping Info</li>
+   <li style="color: grey;font-size: 10px;">Returns</li>
+   <li style="color: grey;font-size: 10px;">How To Order</li>
+   <li style="color: grey;font-size: 10px;">How To Track</li>
+   <li style="color: grey;font-size: 10px;">Size Guide</li>
+ </ul>    
+ <ul style="list-style-type: none;padding-top: 10px;">
+   <li style="font-weight: bold;font-size: 10px;color: black;">CUSTOMER CARE</li>
+   <li style="color: grey;font-size: 10px;" >Contact Us</li>
+   <li style="color: grey;font-size: 10px;">Payment Method</li>
+   <li style="color: grey;font-size: 10px;">Bonus Point</li>
+  
+ </ul> 
+ 
+ 
+ </footer>
+ <footer class="foot2 center">
+ <h3 style="display: inline;">FIND US ON</h3><br>
+ 
+   <i style="font-size:24px" class="fa">&#xf082;</i>
+   <i style="font-size:24px" class="fa">&#xf16d;</i>
+   <i style="font-size:24px" class="fa">&#xf099;</i>
+   <i style="font-size:24px" class="fa">&#xf167;</i>
+   <i style="font-size:24px" class="fa">&#xf232;</i>
+   <i style="font-size:24px" class="fa">&#xf0d3;</i><br>
+   <h3 style="display:inline;">WE ACCEPT </h3><br>
+   <i style="font-size:24px" class="fa">&#xf1f4;</i>
+   <i style="font-size:24px" class="fa">&#xf1f0;</i>
+ 
+ </footer>
+    </body>
+</html>
+

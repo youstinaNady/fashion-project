@@ -1,0 +1,438 @@
+body {margin: 0;
+    background-image: url(3694824.png);
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-position: center;
+    background-size: cover;
+    }
+    
+    ul.topnav {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: rgb(202, 125, 125);
+      
+    }
+    
+    ul.topnav li {float: left;}
+    
+    ul.topnav li a {
+      display: block;
+      color: rgb(255, 255, 255);
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+    ul.topnav li a:hover {background-color: rgb(241, 205, 205);
+    color: dimgrey ;
+    border-bottom: 2px solid rgb(70, 68, 68);
+    }
+    
+    ul.topnav li a.active {background-color: #d14747;}
+    
+    ul.topnav li.right {float: right;}
+    
+    @media screen and (max-width: 600px) {
+      ul.topnav li.right, 
+      ul.topnav li {float: none;
+      width: 100%;}
+    }
+    
+    
+        
+    
+    header{
+        background-color: bisque;
+        width: 100%;
+        overflow: none;
+        text-align: center;
+    }
+    .header1{
+        border: none;
+        background-color:firebrick ;
+        font-size: 15px; 
+        color: black;
+        width: 50px;
+        display: inline;
+        text-align: center;
+    }
+    .navbar{
+     width: 100%;
+     height: 40%;
+     background-color: wheat;
+     color: black;
+     font-size: 20px;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     
+    
+    }
+    ul.navbar{
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: rgb(245, 234, 234);
+    }
+    ul.navbar li {float: right;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 25px;
+    }
+    
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+    .dropdown-content {
+      display: none;
+      position:absolute;
+      background-color: #f9f9f9;
+      width: 70%;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+      height: 300px;
+      overflow-x: auto;
+      overflow-y: auto;
+    }
+
+    .dropdown-content:nth-child(5){
+      display: none;
+      position:absolute;
+      background-color: #f9f9f9;
+      width: 40%;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+      height: 300px;
+      overflow-y: auto;
+      overflow-x: auto;
+    
+    }
+    .dropdown-content:nth-child(6){
+      display: none;
+      position:absolute;
+      background-color: #f9f9f9;
+      width: 70px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+      height: 300px;
+      overflow-y: auto;
+      overflow-x: auto;
+    
+    }
+    .dropdown-content:nth-child(7){
+      display: none;
+      position:absolute;
+      background-color: #f9f9f9;
+      width: 70px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+      height: 300px;
+      overflow-y: auto;
+      overflow-x: auto;
+    
+    }
+    @media only screen and(max-width:600px) {
+      .dropdown-content{
+        width: 30%;
+      }
+      
+    }
+
+    li.dropdown {
+      display: inline-block;
+    }
+    ul.navbar li a {
+      display: inline;
+      color: rgb(255, 255, 255);
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    .navbardesc{
+       
+        font-weight: bold;
+        font-family: 'Times New Roman', Times, serif;
+        padding-top: 25px;
+        font-size: 40px;
+        text-align: center;
+    }
+    ul.navbar li a:hover:not(.wo){
+        text-shadow: 2px 2px 10px rgb(0, 0, 0);
+    }
+    i{
+        color: rgba(80, 76, 76, 0.308);
+    }
+    .colomn{
+        column-count: 2;
+        column-width: 10px;
+        column-fill: balance;
+        padding-left: 15px;
+        
+    }
+    .formdropdown{
+      display: none;
+      position:absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+      right: 0 ;
+      }
+    .formdropdown a{
+      color: rgb(44, 42, 42);
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block !important;
+      text-align: left;
+      font-size: 12px !important;
+    }
+    .formdropdown a:hover{
+        text-shadow: none !important;
+        background-color: rgb(209, 203, 203);
+        color: blanchedalmond !important;
+    }
+    .formdropdown a{
+        text-decoration: none !important;
+        color: black !important;
+        
+    }
+    .formdown:hover .formdropdown{
+      display: block;
+    }
+    .formdown{
+        display: inline-block;
+    }
+    .formdown a:hover{
+    text-shadow: none !important;
+    cursor: pointer;
+    }
+    
+    fieldset{
+    width: 450px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10%;
+    border-color:rgb(219, 161,161);
+    border-radius: 8px;
+    background-color: rgb(160, 100, 100);
+    
+    
+    
+    
+    }
+    @media only screen and(max-width:600px) {
+      fieldset{
+        width: 95%;
+      }
+      
+    }
+    input[type=text],[type=password],[type=email],[type=tel]{
+    float: center;
+    width:80%;
+    height: 28px;
+    border-top-color: black;
+    border-left-color:black;
+    border-bottom-color:#ccc;
+    border-right-color: #ccc;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    
+    }
+    
+    textarea{
+    float: center;
+    width:80%;
+    height: 40px;
+    border-top-color: black;
+    border-left-color:black;
+    border-bottom-color:#ccc;
+    border-right-color: #ccc;
+    border-radius: 5px;
+    }
+    input[type=text]:focus,[type=password]:focus,[type=email]:focus,[type=tel]:focus {
+      border: 3px solid rgb(219, 161, 161);
+    }
+    legend{
+      text-shadow:2px 2px 4px rgb(180, 83, 101);
+    }
+    input[type=submit]{
+    width: 40%;
+    height: 40px;
+    text-align: center;
+    float: right;
+    cursor: pointer;
+    background-color: rgb(37, 31, 31);
+    color: rgb(245, 234, 234);
+    border: none;
+    
+    }
+    input[type=submit]:hover{
+      background-color: rgb(219, 161,161);
+    }
+
+    @media only screen and(max-width:600px) {
+     #signup{
+        width: 100% ;
+        
+
+      }
+      
+    }
+   
+    #message {
+      display:none;
+      background: #f1f1f1;
+      color: #000;
+      position: relative;
+      padding: 20px;
+      margin-top: 10px;
+    }
+    
+    #message p {
+      padding: 10px 35px;
+      font-size: 18px;
+    }
+    
+    
+    .valid {
+      color: green;
+    }
+    
+    .valid:before {
+      position: relative;
+      left: -35px;
+      content: "✔";
+    }
+    
+    
+    .invalid {
+      color: red;
+    }
+    
+    .invalid:before {
+      position: relative;
+      left: -35px;
+      content: "✖";
+    }
+
+    .error
+{
+  color: red;
+  size: 80%
+}
+.hidden
+{
+  display:none;
+}
+
+.foot1{
+  column-count: 3;
+  column-width:15px ;
+  background-color: rgba(235, 192, 202, 0.623); 
+  width: 95%;
+  height: 40%;
+  
+  
+  
+  
+  
+  }
+  
+  .center{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  
+  .foot2{
+    
+    padding-left: 30px;
+    background-color: rgba(235, 192, 202, 0.623); 
+    width: 93%;
+    margin-bottom: 5px;
+    height: 40%;
+    
+  
+  }
+
+  .newin{
+    width: 500px;
+    padding:10px 10px ;
+    display: inline;
+    float: left;
+    height: 270px;
+  }
+  
+  .trend{
+    padding:10px 10px ;
+    display: inline;
+    float: left;
+    width: 500px;
+    height: 270px;
+  }
+  .cloth{
+    padding:5px  ;
+    display: inline;
+    float: left;
+    width: 300px;
+    height: 200px;
+    
+  }
+  @media only screen and(max-width:600px){
+    .cloth{
+      display: block;
+    }
+    
+  }
+  .dress1{
+    padding:5px; 
+    display:inline;
+    float: left;
+    width: 300px;
+    height: 200px;
+    
+  }
+  .dress2{
+    display: inline;
+    float: right;
+    
+    width: 300px;
+    height: 200px;
+  
+  }
+  .shoe{
+    float: left;
+    display: inline ;
+    width: 300px;
+    height: 200px;
+  }
+  .accessory{
+    float:right;
+    
+    display:inline;
+    padding-top: 2px;
+    width: 40%;
+    height: 200px;
+  }
+  @media only screen and(max-width:600px){
+    .accessory{
+      display: block;
+      float: none;
+    }
+    
+  }
+  .beauty{
+    
+    float: right;
+    width: 45%;
+    height: 300px;
+  }
+  .sale{
+    float:left;
+    width: 70%;
+    height: 200px;
+  
+  }
