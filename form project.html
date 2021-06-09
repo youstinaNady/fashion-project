@@ -287,13 +287,13 @@ Sale Maternity Clothing
     <label for="email">E-mail Address:</label><br>
     <input type="email" id="email" name="email" placeholder="Enter your E-mail"  required><br><br>
     <label for="pw">Password</label><br>
-    <input type="password" id="pw" name="pw" placeholder="Enter your password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]{1})(?=.*){1}.{8}" title="It must contain 8 characters starting with uppercase letter and including at least one digit, one of these special character (#,*,_,&,-) and no spaces." required><br><br>
+    <input type="password" id="pw" name="pw" placeholder="Enter your password" pattern="(?=.*\d)(?!.* )(?=.*[a-z])(?=.*[A-Z]{1}).{8}" title="It must contain 8 characters starting with uppercase letter and including at least one digit, one of these special character (#,*,_,&,-) and no spaces." required><br><br>
     <label for="phone">Mobile Phone Number</label><br>
     <input type="tel" id="number" name="number" placeholder="Enter your phone number" pattern="[0]{1}[1]{1}[0-9]{9}" required><br><br>
     <label for="address">Address</label><br>
     <textarea placeholder="Enter your home address"></textarea><br><br>
     <label for="gender">What is Your gender?</label><br>
-    <select class="gender" name="gender" >
+    <select class="gender" name="gender" required>
       <option value="male">MALE</option>
       <option value="female">FEMALE</option>
   </select><br><br><br>
