@@ -226,7 +226,7 @@ button{
 
 .kidpic:nth-child(even){
     float:right;
-    margin-right: 10px;
+   
     width: 450px;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -240,8 +240,7 @@ button{
     margin-top: 20px;
     margin-bottom: 20px;
     display: block;
-    margin-right: 20px;
-    margin-left: 20px;
+   
     
     
 }
@@ -296,22 +295,7 @@ table {
  }
 
 
-@media only screen and(max-width:600px) {
-    .kidpic{
-        width: 80%;
-        margin: 0;
-        
-    }
-    
-}
-@media only screen and(max-width:600px) {
-  .kidpic:nth-child(even){
-      width: 80%;
-      margin: 0;
-      
-  }
-  
-}
+
 
 
 .foot1{
@@ -421,3 +405,30 @@ table {
     height: 200px;
   
   }
+
+
+@media (max-width:600px) {
+  .kidpic:nth-child(even) {
+    width: 100%;
+  }
+  .kidpic{
+    width: 100%;
+  }
+}
+
+ @media (max-width:600px) {
+  .kidpic:nth-child(even) {
+    float: left;
+  }
+}
+
+@media (min-width: 700px) {
+  .kidpic:nth-child(even) {
+    float: right;
+  }
+}
+
+.clearfix::after {
+  display: block;
+  clear: both;
+  content: ""; }
