@@ -212,11 +212,12 @@ cursor: pointer;
     margin-top: 15px;
     border-radius: 5px;
     height: auto;
+    width:390px;
 
 }
  
 .star:hover{
-  width: 50.9999%; 
+  width: 45.9999%; 
   height: auto;
   
  
@@ -276,7 +277,7 @@ table {
 
   @media screen and(max-width:600px) {
     .star{
-        width: 30%;
+        width:25%;
     }
     
 }
