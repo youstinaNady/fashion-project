@@ -20,7 +20,7 @@
     || form.pw.value.charAt(0)=="_" || form.pw.value.charAt(0)=="*" || 
     form.pw.value.charAt(0)=="#" || form.pw.value.charAt(0)=="&" || 
     form.pw.value.charAt(0)==" "){
-        alert("Error: password must start with uppercase letter (A-Z)! Check the password title, please.");
+        alert("Error: password must start with uppercase letter (A-Z)! Check the password , please.");
         return false;
  
 }
@@ -28,7 +28,7 @@
       while(!Number(form.pw.value.charAt(i))){
         i++;
         if(i==8){
-        alert("Error: password must include at least one digit (0-9)! Check the password title, please.");
+        alert("Error: password must include at least one digit (0-9)! Check the password , please.");
         return false;
         break;
        }
@@ -40,14 +40,14 @@
        form.pw.value.charAt(i) !="*" || form.pw.value.charAt(i) ==" "){
         i++;
         if(i==8){
-        alert("Error: password must include a special character and no spaces! Check the password title, please.");
+        alert("Error: password must include a special character and no spaces! Check the password , please.");
         return false;
         break;
        }
         else continue;
      }
       alert("You entered a valid password: " + form.pw.value);
-      alert("Thank you for your submition " + form.fname.value + ",we'll send you our notification day by day on this new added email.")
+      alert("Thank you for your submition " + form.fname.value + ",we'll contact you soon.")
     return true;
   }
           
